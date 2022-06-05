@@ -2,10 +2,11 @@
 *tel: +375(33)636-9449; email: sidorkaanastasiya@gmail.com*
 *Discord: Ana (@AnaSidorka)*
 ---
+! [My photo](./my_pic.jpg "Photo") 
+--- 
 ## My goals
-
-I am interested in web development and see myself as a Front-end developer with futher goal to grow to the Full-stack developer role. 
-I closely work with the websites now and I like creating visually appealing and modern web pages.
+    I am interested in web development and see myself as a Front-end developer with futher goal to grow to the Full-stack developer role. 
+    I closely work with the websites now and I like creating visually appealing and modern web pages.
 ---
 ## Experience
 ### SEO specialist with **Alfamedio LTD**
@@ -29,7 +30,19 @@ I closely work with the websites now and I like creating visually appealing and 
 ### RS School Front-end
 *from Jun'22 - now*
 - Git & Github;
-- Markdown.
+- Markdown;
+- Codewars:
+    code example:
+        ```
+        function repeatStr (n, s) {
+        const str = [];
+        for(let i = 0; i < n; i++) {
+            str.push(s);
+            }
+        return "".concat(...str);
+        }
+        ```
+    > Comment: it was my last task in Codewars, not the best solution as there is a shorter verison, but at least it works:)
 ### Codecademy.com
 *from Jan'22 - May'22*
 - HTML & CSS, JS (basic):
