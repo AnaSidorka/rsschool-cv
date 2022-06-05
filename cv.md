@@ -43,7 +43,7 @@ I closely work with the websites now and I like creating visually appealing and 
         }
         ```
 > Comment: it was my last task in Codewars, not the best solution as there is a shorter verison, but at least it works:)
-### Codecademy.com
+ ###  Codecademy.com
 *from Jan'22 - May'22*
 - HTML & CSS, JS (basic):
     * ["Personal website" project](https://anasidorka.github.io/personal2/home.html)
