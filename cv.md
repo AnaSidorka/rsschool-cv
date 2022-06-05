@@ -3,6 +3,7 @@
 *Discord: Ana (@AnaSidorka)*
 ---
 ## My goals
+
 I am interested in web development and see myself as a Front-end developer with futher goal to grow to the Full-stack developer role. 
 I closely work with the websites now and I like creating visually appealing and modern web pages.
 ---
