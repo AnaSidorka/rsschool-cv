@@ -5,9 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Draft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <title>My CV | Anastasia Sidorka</title>
 </head>
 <body>
-    <h1>Draft for later use</h1>
+    <header>
+        <img id="photo" src="./pics/photo.png" alt="my photo">
+        <div id="intro">
+            <div id="my-name">
+                <h1>Anastasia Sidorka</h1>
+                <h2>Front-end developer</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="square"></div>
+    </header>
+    <main>
+        <aside id="left">
+            <div class="block">
+                <div class="pink"></div>
+                <div class="contact">
+                    <h3>Phone</h3>
+                    <p>+375 (33) 636-9449</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="pink"></div>
+                <div class="contact">
+                    <h3>Email</h3>
+                    <p>sidorkaanastasiya@gmail.com</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="pink"></div>
+                <div class="contact">
+                    <h3>Discord</h3>
+                    <p>Ana (@AnaSidorka)</p>
+                </div>
+            </div>
+          </aside>
+        <section id="right">
+            <section id="about">
+                <h2>About me</h2>
+                <p class="high">I am interested in web development and see myself as a Front-end developer with futher goal to grow to the Full-stack developer role.</p>
+                <p>I closely work with the websites now and I like creating visually appealing and modern web pages.</p>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <h3>SEO specialist with Alfamedio LTD</h3>
+                <p><em>from Sep'21 - now</em></p>
+                <ul>
+                    <li>promoting small companies on Google;</li>
+                    <li>keyword research;</li>
+                    <li>content creation and optimisation;</li>
+                    <li>link building;</li>
+                    <li>post publishing on WordPress, Shopify and other CMS;</li>
+                    <li>reports with Ahref;</li>
+                    <li>managing client's GMB profiles.</li>
+                </ul>
+                <h3>Demand Planner with Coca-Cola HBC Belarus</h3>
+                <p><em>from May'19 - Jul'21</em></p>
+                <ul>
+                    <li>sales analysis (Excel);</li>
+                    <li>presentations, meetings (PowerPoint, WS Outlook, Teams);</li>
+                    <li>weekly & monthly sales forecast creation;</li>
+                    <li>project management;</li>
+                    <li>reporting;</li>
+                </ul>
+              </section>
+            <section id="education">
+                <h2>Education</h2>
+                <h3>RS School Front-end</h3>
+                <p><em>from Jun'22 - now</em></p>
+                <ul class="skills">
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Markdown</li>
+                    <li>Codewars</li>
+                </ul>
+                <h3>Codecademy.com</h3>
+                <p><em>from Jan'22 - May'22</em></p>
+                <ul class="skills">
+                    <li>HTML & CSS</li>
+                    <li>JS (basic)</li>
+                    <li>Visual Studio Code</li>
+                    <li>Flex</li>
+                    <li>Grid</li>
+                    <li>Responsive code</li>
+                    <li>Chrome DevTool</li>
+                </ul>
+                <h3>Belhard Academy</h3>
+                <p><em>May'21 - Jun'21</em></p>
+                <ul class="skills">
+                    <li>Project Management</li>
+                    <li>Business Analysis</li>
+                </ul>
+                <h3>Minsk State Linguistic University</h3>
+                <p><em>Sep'14 - Jun'19</em></p>
+                <ul class="skills">
+                    <li>Translation & Interpreting</li>
+                    <li>English (advanced)</li>
+                    <li>Chinese (written)</li>
+                    <li>Spanish (basic)</li>
+                </ul>
+                <h2>Code example</h2>
+                <pre>
+                function repeatStr (n, s) {
+                    const str = [];
+                    for(let i = 0; i &lt; n; i++) {
+                        str.push(s);
+                        }
+                    return "&quot;.concat(...str);
+                    }
+                </pre>
+              </section>
+          </section>
+    </main>
+    <footer>
+        <div id="git"><a href="https://github.com/AnaSidorka/"><img src="./pics/git-icon.png" alt="my github"></a></div>
+        <div><h4>2022</h4></div>
+        <div id="logo"><a href="https://rs.school/js/"><img src="./pics/rss-pink.png" alt="rsschool stage0 logo"></a></div>
+    </footer>
 </body>
 </html>

@@ -1,2 +1,1 @@
-# My CV
-See it here: https://anasidorka.github.io/rsschool-cv/
+https://anasidorka.github.io/rsschool-cv/
